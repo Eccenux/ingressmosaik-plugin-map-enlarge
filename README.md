@@ -6,5 +6,5 @@ Installation
 ------------
 
 1. Install [TamperMonkey](https://addons.mozilla.org/pl/firefox/addon/tampermonkey/) (if don't have it already).
-2. Once you have TM &rarr; **[install the script](https://github.com/Eccenux/iitc-plugin-map-enlarge/raw/master/map-enlarge.user.js)**.
+2. Once you have TM &rarr; **[install the script](https://github.com/Eccenux/ingressmosaik-plugin-map-enlarge/raw/master/map-enlarge.user.js)**.
 
