@@ -1,13 +1,11 @@
 // ==UserScript==
 // @name         Map enlarge
 // @namespace    pl.enux.ingressmosaik
-// @version      0.0.2
-// @description  [0.0.2] Makes the map larger when you open Map tab in new tab.
+// @version      1.0.0
+// @description  [1.0.0] Makes the map larger when you open Map tab in new tab.
 // @author       Maciej Nux Jaros
-// @include      https://*.ingressmosaik.com/*
-// @include      https://ingressmosaik.com/*
-// @match        https://*.ingressmosaik.com/*
 // @match        https://ingressmosaik.com/*
+// @match        https://ingressmosaic.com/*
 // @grant        none
 // @updateURL    https://github.com/Eccenux/ingressmosaik-plugin-map-enlarge/raw/master/map-enlarge.meta.js
 // @downloadURL  https://github.com/Eccenux/ingressmosaik-plugin-map-enlarge/raw/master/map-enlarge.user.js
@@ -15,10 +13,8 @@
 
 (function($) {
     'use strict';
-	
-	console.log('Hello from TM script');
-	console.log('hash: ', location.hash);
-	
+	// console.log('Hello from TM script');
+	// console.log('hash: ', location.hash);
     if (location.hash === '#maps') {
         // collapse everything but the tabs
         infoHide('1');
